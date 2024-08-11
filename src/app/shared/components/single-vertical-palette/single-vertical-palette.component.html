@@ -1,0 +1,8 @@
+<li class="li-palette-wrapper" (click)="onCopy()">
+  <div class="color-palette" style="background-color: #{{randomColor}}"></div>
+  <div class="color-code">
+    <span class="color-value">#{{randomColor}}</span>
+    <mat-icon *ngIf="isCopied" class="check_box">check_box</mat-icon>
+    <mat-icon *ngIf="!isCopied" class="check_box_outline_blank">check_box_outline_blank</mat-icon>
+  </div>
+</li>

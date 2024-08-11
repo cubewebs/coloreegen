@@ -1,0 +1,31 @@
+.home-container {
+  height: 90svh;
+  width: 100svw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-title {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.palettes-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.btn-wrapper {
+  margin-top: 1rem;
+}
+
+.info {
+  margin-top: 1rem;
+  color: #b2b2b2;
+}
