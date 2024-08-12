@@ -29,3 +29,19 @@
   margin-top: 1rem;
   color: #b2b2b2;
 }
+
+.divider {
+  z-index: 99;
+  width: 100svw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #1a1b1f;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}

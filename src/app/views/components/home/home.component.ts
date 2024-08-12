@@ -4,11 +4,12 @@ import {
   SingleVerticalPaletteComponent
 } from "../../../shared/components/single-vertical-palette/single-vertical-palette.component";
 import {MatButtonModule} from "@angular/material/button";
+import {MatDividerModule} from "@angular/material/divider";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [SingleVerticalPaletteComponent, MatButtonModule],
+  imports: [SingleVerticalPaletteComponent, MatButtonModule, MatDividerModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
